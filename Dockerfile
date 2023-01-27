@@ -1,4 +1,4 @@
-FROM docker
+FROM node
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
